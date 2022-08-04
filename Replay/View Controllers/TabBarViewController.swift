@@ -1,27 +1,22 @@
 //
-//  HomeViewController.swift
+//  TabBarViewController.swift
 //  Replay
 //
-//  Created by Aayush Bhagat on 7/27/22.
+//  Created by Aayush Bhagat on 7/28/22.
 //
 
 import UIKit
 import FirebaseAuth
 
-class HomeViewController: UIViewController {
+class TabBarViewController: UITabBarController {
 
-    override func viewDidLoad(){
+    override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
-    }
-    
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(true)
-        
-        tabBarController?.tabBar.isHidden = false
-        
         Auth.auth().addStateDidChangeListener { auth, user in
+            
+            print(user?.uid)
             
             if user == nil{
                 let startViewController = self.storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.startViewController) as? ViewController
@@ -31,12 +26,6 @@ class HomeViewController: UIViewController {
             }
         }
     }
-    
-    
-    
-
-    
-    
     
 
     /*
@@ -48,6 +37,5 @@ class HomeViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 
 }

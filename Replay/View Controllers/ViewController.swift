@@ -14,9 +14,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var loginButton: UIButton!
     
     override func viewDidLoad() {
+        print("hello")
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
     
 
 
