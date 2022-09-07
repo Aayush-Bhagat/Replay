@@ -11,6 +11,9 @@
 		7415F577289244420007A616 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7415F576289244420007A616 /* Constants.swift */; };
 		7415F57C2893414C0007A616 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7415F57B2893414C0007A616 /* CameraViewController.swift */; };
 		7415F57E289341610007A616 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7415F57D289341610007A616 /* ProfileViewController.swift */; };
+		742D20D6289F56BC008BA26C /* SearchFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742D20D5289F56BC008BA26C /* SearchFriendsViewController.swift */; };
+		742D20D8289F56D0008BA26C /* FriendRequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742D20D7289F56D0008BA26C /* FriendRequestsViewController.swift */; };
+		742D20DA289F56DB008BA26C /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742D20D9289F56DB008BA26C /* FriendsViewController.swift */; };
 		74304A292890EB1800A61E8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74304A282890EB1800A61E8A /* AppDelegate.swift */; };
 		74304A2B2890EB1800A61E8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74304A2A2890EB1800A61E8A /* SceneDelegate.swift */; };
 		74304A2D2890EB1800A61E8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74304A2C2890EB1800A61E8A /* ViewController.swift */; };
@@ -28,7 +31,12 @@
 		74304A4E2891EC2A00A61E8A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74304A4D2891EC2A00A61E8A /* SignUpViewController.swift */; };
 		74304A502891EC3A00A61E8A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74304A4F2891EC3A00A61E8A /* HomeViewController.swift */; };
 		74490E292899CE3A005F58F9 /* VideoPlayback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74490E282899CE3A005F58F9 /* VideoPlayback.swift */; };
+		74A7C0DC28BA931F009E6B64 /* FriendsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A7C0DB28BA931F009E6B64 /* FriendsTableViewCell.swift */; };
 		74B485612898862E0076FD4F /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B485602898862E0076FD4F /* VideoModel.swift */; };
+		74FE9ED328B8025A00094DD6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FE9ED228B8025A00094DD6 /* UserModel.swift */; };
+		74FE9ED528B82DF900094DD6 /* SearchFriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FE9ED428B82DF900094DD6 /* SearchFriendCell.swift */; };
+		74FE9ED728B866EC00094DD6 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FE9ED628B866EC00094DD6 /* FriendModel.swift */; };
+		74FE9ED928B95A9F00094DD6 /* FriendRequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FE9ED828B95A9F00094DD6 /* FriendRequestTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +44,9 @@
 		7415F576289244420007A616 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7415F57B2893414C0007A616 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		7415F57D289341610007A616 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		742D20D5289F56BC008BA26C /* SearchFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFriendsViewController.swift; sourceTree = "<group>"; };
+		742D20D7289F56D0008BA26C /* FriendRequestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestsViewController.swift; sourceTree = "<group>"; };
+		742D20D9289F56DB008BA26C /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		74304A252890EB1800A61E8A /* Replay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Replay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74304A282890EB1800A61E8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74304A2A2890EB1800A61E8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,7 +60,12 @@
 		74304A4D2891EC2A00A61E8A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		74304A4F2891EC3A00A61E8A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		74490E282899CE3A005F58F9 /* VideoPlayback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayback.swift; sourceTree = "<group>"; };
+		74A7C0DB28BA931F009E6B64 /* FriendsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewCell.swift; sourceTree = "<group>"; };
 		74B485602898862E0076FD4F /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		74FE9ED228B8025A00094DD6 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		74FE9ED428B82DF900094DD6 /* SearchFriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFriendCell.swift; sourceTree = "<group>"; };
+		74FE9ED628B866EC00094DD6 /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		74FE9ED828B95A9F00094DD6 /* FriendRequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				74B485602898862E0076FD4F /* VideoModel.swift */,
+				74FE9ED228B8025A00094DD6 /* UserModel.swift */,
+				74FE9ED628B866EC00094DD6 /* FriendModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -101,6 +119,19 @@
 				74304A332890EB1900A61E8A /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		742D20D4289F568F008BA26C /* FriendViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				742D20D5289F56BC008BA26C /* SearchFriendsViewController.swift */,
+				742D20D7289F56D0008BA26C /* FriendRequestsViewController.swift */,
+				742D20D9289F56DB008BA26C /* FriendsViewController.swift */,
+				74FE9ED428B82DF900094DD6 /* SearchFriendCell.swift */,
+				74FE9ED828B95A9F00094DD6 /* FriendRequestTableViewCell.swift */,
+				74A7C0DB28BA931F009E6B64 /* FriendsTableViewCell.swift */,
+			);
+			path = FriendViewControllers;
 			sourceTree = "<group>";
 		};
 		74304A1C2890EB1800A61E8A = {
@@ -138,6 +169,7 @@
 		74304A512891EC4200A61E8A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				742D20D4289F568F008BA26C /* FriendViewControllers */,
 				74304A4F2891EC3A00A61E8A /* HomeViewController.swift */,
 				74304A4D2891EC2A00A61E8A /* SignUpViewController.swift */,
 				74304A4B2891EC1500A61E8A /* LoginViewController.swift */,
@@ -232,14 +264,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				742D20DA289F56DB008BA26C /* FriendsViewController.swift in Sources */,
+				74FE9ED528B82DF900094DD6 /* SearchFriendCell.swift in Sources */,
 				74304A4C2891EC1500A61E8A /* LoginViewController.swift in Sources */,
+				74A7C0DC28BA931F009E6B64 /* FriendsTableViewCell.swift in Sources */,
+				742D20D8289F56D0008BA26C /* FriendRequestsViewController.swift in Sources */,
 				7415F575289232130007A616 /* FormUtilities.swift in Sources */,
+				74FE9ED928B95A9F00094DD6 /* FriendRequestTableViewCell.swift in Sources */,
+				742D20D6289F56BC008BA26C /* SearchFriendsViewController.swift in Sources */,
 				7415F57E289341610007A616 /* ProfileViewController.swift in Sources */,
 				74304A2D2890EB1800A61E8A /* ViewController.swift in Sources */,
 				74490E292899CE3A005F58F9 /* VideoPlayback.swift in Sources */,
 				74304A292890EB1800A61E8A /* AppDelegate.swift in Sources */,
 				74304A2B2890EB1800A61E8A /* SceneDelegate.swift in Sources */,
+				74FE9ED328B8025A00094DD6 /* UserModel.swift in Sources */,
 				74304A4E2891EC2A00A61E8A /* SignUpViewController.swift in Sources */,
+				74FE9ED728B866EC00094DD6 /* FriendModel.swift in Sources */,
 				74304A502891EC3A00A61E8A /* HomeViewController.swift in Sources */,
 				7415F577289244420007A616 /* Constants.swift in Sources */,
 				7415F57C2893414C0007A616 /* CameraViewController.swift in Sources */,

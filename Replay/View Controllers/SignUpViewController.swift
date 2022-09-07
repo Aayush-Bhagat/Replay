@@ -86,6 +86,7 @@ class SignUpViewController: UIViewController {
             Auth.auth().createUser(withEmail: email, password: password) { result, err in
                 
                 if let err = err {
+                    print(err)
                     self.showError("Error creating user")
                 }
                 else{
@@ -115,7 +116,7 @@ class SignUpViewController: UIViewController {
     
     func transitionToHome(){
         
-        let homeViewController =  storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.homeViewController) as? HomeViewController
+        let homeViewController =  storyboard?.instantiateViewController(withIdentifier: Constants.Storyboard.TabViewController) as? HomeViewController
         
         view.window?.rootViewController = homeViewController
         view.window?.makeKeyAndVisible()

@@ -12,5 +12,8 @@ struct Constants{
         static let homeViewController = "HomeVC"
         static let startViewController = "StartVC"
         static let TabViewController = "TabVC"
+        static let FriendCellPrototype = "FriendCell"
+        static let FriendRequestCell = "FriendRequestCell"
+        static let FriendCell = "FriendsTableViewCell"
     }
 }
